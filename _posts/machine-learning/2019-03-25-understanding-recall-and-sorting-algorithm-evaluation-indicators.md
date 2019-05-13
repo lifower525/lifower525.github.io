@@ -3,7 +3,7 @@ layout: post
 title: 理解搜索召回排序算法评价指标
 category: [machine-learning]
 author: Howie Lee
-tags: [Rank,mAP,MRR,nDCG]
+tags: [Rank,MAP,MRR,NDCG]
 ---
 
 ## 摘要
