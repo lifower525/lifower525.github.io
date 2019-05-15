@@ -28,8 +28,18 @@ h1, h2, h3, h4, h5, h6 {
 h2, h3, h4, h5, h6 { margin: 20px 0 15px; }
 
 h2 {
+  font-size: 21px;
   padding-bottom: 5px;
-  border-bottom:  1.5px solid green;
+  border-bottom: 1.2px solid green;
+  color: #333;
+  margin: 20px 0 5px;
+}
+
+h3 {
+  font-size: 18px;
+  padding-bottom: 5px;
+  border-bottom: 1.5px solid #ddd;
+  color: #333;
   margin: 20px 0 5px;
 }
 
