@@ -82,6 +82,20 @@ sudo yum install -y make patch gdbm-devel openssl-devel sqlite-devel readlin
 curl -L https://raw.githubusercontent.com/yyuu/pyenv-installer/master/bin/pyenv-installer | bash
 ```
 
+### pyenv 常用命令
+
+```shell
+pyenv install --list  # 可安装版本 
+pyenv install 3.4.1 -v # install 
+pyenv install 3.5.2 -v 
+pyenv install 2.7.12 -v 
+pyenv rehash # 更新数据库 
+pyenv versions # 查看当前已安装版本 
+pyenv version # 查看当前使用版本 
+pyenv local 2.7.12  # 临时设置版本 
+pyenv global 3.5.2  # 设置全局python版本 慎用  
+```
+
 ### 安装 python
 
 ```shell
