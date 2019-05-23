@@ -149,4 +149,19 @@ rvm list known
 rvm install 2.6
 ```
 
+## 安装 vim
+
+由于系统自带的 vim 一般版本比较老，需要安装v8.1以上的版本，有很多新的特性
+
+安装过程如下：
+
+```shell
+yum install ncurses-devel
+git clone https://github.com/vim/vim.git
+cd vim 
+cd src/
+./configure --with-features=huge --enable-pythoninterp --enable-python3interp --enable-luainterp --enable-multibyte --enable-sniff --enable-fontset
+make
+sudo make install
+```
 
